@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+.coverage
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+
+# Local audio uploads
+data/uploads/
+data/live/
+
+# Local application database
+backend/data/*.db
+backend/data/*.sqlite
+backend/data/*.sqlite3
